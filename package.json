@@ -1,0 +1,31 @@
+{
+  "name": "mongoose-sever",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon -r dotenv/config server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michaelbyalsky/mongoose-sever.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/michaelbyalsky/mongoose-sever/issues"
+  },
+  "homepage": "https://github.com/michaelbyalsky/mongoose-sever#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.10.2"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.4"
+  }
+}
